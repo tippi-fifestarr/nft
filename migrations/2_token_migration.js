@@ -1,5 +1,5 @@
-const DateToken = artifacts.require("Date");
+const Dusty = artifacts.require("Dusty");
 
 module.exports = function (deployer) {
-  deployer.deploy(DateToken);
+  deployer.deploy(Dusty);
 };
